@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import './AnimatedStats.css';
@@ -48,30 +48,32 @@ const AnimatedStats = () => {
 
 const CountUp = ({ end, duration, suffix = '' }) => {
   const [count, setCount] = useState(0);
-  const countRef = useRef(0);
-  const startTimeRef = useRef(null);
 
   useEffect(() => {
+    let startTime = null;
+    let animationFrame;
+
     const animate = (timestamp) => {
-      if (!startTimeRef.current) {
-        startTimeRef.current = timestamp;
+      if (!startTime) {
+        startTime = timestamp;
       }
 
-      const progress = (timestamp - startTimeRef.current) / (duration * 1000);
+      const progress = Math.min((timestamp - startTime) / (duration * 1000), 1);
+      const currentCount = Math.floor(end * progress);
+
+      setCount(currentCount);
 
       if (progress < 1) {
-        countRef.current = Math.floor(end * progress);
-        setCount(countRef.current);
-        requestAnimationFrame(animate);
-      } else {
-        setCount(end);
+        animationFrame = requestAnimationFrame(animate);
       }
     };
 
-    requestAnimationFrame(animate);
+    animationFrame = requestAnimationFrame(animate);
 
     return () => {
-      startTimeRef.current = null;
+      if (animationFrame) {
+        cancelAnimationFrame(animationFrame);
+      }
     };
   }, [end, duration]);
 
