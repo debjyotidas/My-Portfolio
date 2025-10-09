@@ -170,18 +170,19 @@ export const experience = [
     technologies: ["Playwright", "Cypress", "JavaScript", "CI/CD", "Jira"]
   },
   {
-    role: "Frontend Developer",
-    company: "Your Previous Company", // Update with your company
-    period: "2020 - 2022", // Update with your period
-    description: "Developed responsive web applications using modern JavaScript frameworks",
+    role: "Associate Software Engineer (Frontend Developer + Automation)",
+    company: "Sieva Networks Pvt Ltd",
+    period: "2020 - 2022",
+    description: "Developed responsive web applications and implemented test automation frameworks",
     responsibilities: [
       "Built responsive user interfaces with React",
       "Implemented state management solutions",
       "Collaborated with UX designers",
+      "Developed automated test suites using Playwright and Cypress",
       "Optimized application performance",
       "Wrote unit and integration tests"
     ],
-    technologies: ["React", "JavaScript", "HTML", "CSS", "Git"]
+    technologies: ["React", "JavaScript", "Playwright", "Cypress", "HTML", "CSS", "Git"]
   }
 ];
 
