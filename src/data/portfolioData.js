@@ -156,7 +156,7 @@ export const projects = {
 
 export const experience = [
   {
-    role: "QA Analyst / Automation Engineer",
+    role: "Associate Software Engineer (QA Analyst / Automation Engineer)",
     company: "Sieva Networks Pvt Ltd",
     period: "2022 - Present", // Update with your period
     description: "Leading test automation initiatives and ensuring software quality",
