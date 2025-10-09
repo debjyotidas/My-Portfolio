@@ -2,10 +2,10 @@ export const personalInfo = {
   name: "Debjyoti Das",
   title: "QA Analyst & Automation Engineer",
   subtitle: "Frontend Developer | Test Automation Specialist",
-  email: "your.email@example.com", // Update with your email
+  email: "dasdevjyoti15@gmail.com",
   github: "https://github.com/debjyotidas",
-  linkedin: "https://linkedin.com/in/your-profile", // Update with your LinkedIn
-  location: "Your Location", // Update with your location
+  linkedin: "https://www.linkedin.com/in/debjyoti-das-890a69184/",
+  location: "Kolkata, West Bengal",
   bio: "Passionate QA Analyst and Automation Engineer with expertise in test automation using Playwright and Cypress. Proficient in frontend development with React, combining technical skills in both testing and development to deliver high-quality software solutions."
 };
 
@@ -16,24 +16,27 @@ export const skills = {
     { name: "HTML5", level: 90, icon: "FaHtml5" },
     { name: "CSS3", level: 85, icon: "FaCss3Alt" },
     { name: "Tailwind CSS", level: 80, icon: "SiTailwindcss" },
-    { name: "Vite", level: 75, icon: "SiVite" },
+    { name: "Vite", level: 75, icon: "FaRobot" },
     { name: "Git", level: 85, icon: "FaGitAlt" }
   ],
   testing: [
-    { name: "Playwright", level: 90, icon: "SiPlaywright" },
+    { name: "Playwright", level: 90, icon: "FaRobot" },
     { name: "Cypress", level: 85, icon: "SiCypress" },
     { name: "Jest", level: 80, icon: "SiJest" },
-    { name: "Testing Library", level: 85, icon: "SiTestinglibrary" },
-    { name: "Selenium", level: 75, icon: "SiSelenium" },
+    { name: "Mocha", level: 85, icon: "FaVial" },
+    { name: "Chai", level: 85, icon: "FaCheckCircle" },
+    { name: "Axios", level: 80, icon: "FaNetworkWired" },
+    { name: "Testing Library", level: 85, icon: "FaCheckCircle" },
+    { name: "Selenium", level: 75, icon: "FaVial" },
     { name: "API Testing", level: 85, icon: "FaNetworkWired" },
-    { name: "BrowserStack", level: 80, icon: "SiBrowserstack" }
+    { name: "BrowserStack", level: 80, icon: "FaCloud" }
   ],
   tools: [
-    { name: "VS Code", level: 90, icon: "SiVisualstudiocode" },
+    { name: "VS Code", level: 90, icon: "FaCode" },
     { name: "GitHub", level: 85, icon: "FaGithub" },
     { name: "npm", level: 85, icon: "FaNpm" },
-    { name: "Postman", level: 80, icon: "SiPostman" },
-    { name: "Jira", level: 75, icon: "SiJira" }
+    { name: "Postman", level: 80, icon: "FaCloud" },
+    { name: "Jira", level: 75, icon: "FaCheckCircle" }
   ]
 };
 

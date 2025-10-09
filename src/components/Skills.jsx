@@ -1,12 +1,11 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import {
-  FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub, FaNpm, FaNetworkWired
+  FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub, FaNpm, FaNetworkWired, FaCloud, FaRobot, FaVial, FaCheckCircle, FaCode
 } from 'react-icons/fa';
 import {
-  SiJavascript, SiTailwindcss, SiVite, SiPlaywright, SiCypress,
-  SiJest, SiTestinglibrary, SiSelenium, SiBrowserstack,
-  SiVisualstudiocode, SiPostman, SiJira
+  SiJavascript, SiTailwindcss, SiCypress,
+  SiJest
 } from 'react-icons/si';
 import { skills } from '../data/portfolioData';
 import './Skills.css';
@@ -18,9 +17,9 @@ const Skills = () => {
   });
 
   const iconMap = {
-    FaReact, SiJavascript, FaHtml5, FaCss3Alt, SiTailwindcss, SiVite, FaGitAlt,
-    SiPlaywright, SiCypress, SiJest, SiTestinglibrary, SiSelenium, FaNetworkWired,
-    SiBrowserstack, SiVisualstudiocode, FaGithub, FaNpm, SiPostman, SiJira
+    FaReact, SiJavascript, FaHtml5, FaCss3Alt, SiTailwindcss, FaGitAlt,
+    SiCypress, SiJest, FaNetworkWired, FaRobot, FaVial, FaCheckCircle,
+    FaCloud, FaCode, FaGithub, FaNpm
   };
 
   const getIcon = (iconName) => {
@@ -71,7 +70,7 @@ const Skills = () => {
             className="skills-category"
           >
             <h3 className="category-title">
-              <SiPlaywright /> Test Automation & QA
+              <FaRobot /> Test Automation & QA
             </h3>
             <div className="skills-grid">
               {skills.testing.map((skill, index) => (
@@ -143,7 +142,7 @@ const Skills = () => {
             className="skills-category"
           >
             <h3 className="category-title">
-              <SiVisualstudiocode /> Tools & Technologies
+              <FaCode /> Tools & Technologies
             </h3>
             <div className="skills-grid">
               {skills.tools.map((skill, index) => (

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaGithub, FaCheckCircle, FaChartLine } from 'react-icons/fa';
-import { SiPlaywright, SiCypress } from 'react-icons/si';
+import { FaGithub, FaCheckCircle, FaChartLine, FaRobot } from 'react-icons/fa';
+import { SiCypress } from 'react-icons/si';
 import { testingAchievements } from '../data/portfolioData';
 import './TestingAchievements.css';
 
@@ -32,7 +32,7 @@ const TestingAchievements = () => {
 
   const getTechIcon = (tech) => {
     const iconMap = {
-      'Playwright': <SiPlaywright />,
+      'Playwright': <FaRobot />,
       'Cypress': <SiCypress />
     };
     return iconMap[tech] || null;
@@ -48,7 +48,7 @@ const TestingAchievements = () => {
           className="section-header"
         >
           <h2 className="section-title">
-            <SiPlaywright className="title-icon" />
+            <FaRobot className="title-icon" />
             Testing & QA Achievements
           </h2>
           <p className="section-subtitle">
