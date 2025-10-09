@@ -3,6 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import { FaGithub, FaCheckCircle, FaChartLine, FaRobot } from 'react-icons/fa';
 import { SiCypress } from 'react-icons/si';
 import { testingAchievements } from '../data/portfolioData';
+import AnimatedStats from './AnimatedStats';
 import './TestingAchievements.css';
 
 const TestingAchievements = () => {
@@ -124,6 +125,8 @@ const TestingAchievements = () => {
             </motion.div>
           ))}
         </motion.div>
+
+        <AnimatedStats />
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}

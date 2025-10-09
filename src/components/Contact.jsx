@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt } from 'react-icons/fa';
 import { personalInfo } from '../data/portfolioData';
+import ContactForm from './ContactForm';
 import './Contact.css';
 
 const Contact = () => {
@@ -27,6 +28,8 @@ const Contact = () => {
           viewport={{ once: true }}
           className="contact-content"
         >
+          <ContactForm />
+
           <div className="contact-info">
             <h3>Let's Connect!</h3>
             <p>
