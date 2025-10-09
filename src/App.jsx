@@ -1,6 +1,7 @@
 import { ThemeProvider } from './contexts/ThemeContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import FloatingBadges from './components/FloatingBadges';
 import Skills from './components/Skills';
 import TestingAchievements from './components/TestingAchievements';
 import Projects from './components/Projects';
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <main>
           <Hero />
+          <FloatingBadges />
           <Skills />
           <TestingAchievements />
           <Projects />

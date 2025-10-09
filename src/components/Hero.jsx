@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { TypeAnimation } from 'react-type-animation';
 import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from 'react-icons/fa';
 import { personalInfo } from '../data/portfolioData';
 import './Hero.css';
@@ -42,7 +43,23 @@ const Hero = () => {
           </motion.h1>
 
           <motion.h2 className="hero-title" variants={itemVariants}>
-            {personalInfo.title}
+            <TypeAnimation
+              sequence={[
+                'QA Analyst',
+                2000,
+                'Automation Engineer',
+                2000,
+                'Frontend Developer',
+                2000,
+                'Test Automation Specialist',
+                2000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+              cursor={true}
+              style={{ display: 'inline-block' }}
+            />
           </motion.h2>
 
           <motion.p className="hero-subtitle" variants={itemVariants}>
