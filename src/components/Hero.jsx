@@ -125,6 +125,14 @@ const Hero = () => {
           className="scroll-indicator"
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
+          onClick={() => {
+            const skillsSection = document.querySelector('#skills');
+            if (skillsSection) {
+              skillsSection.scrollIntoView({ behavior: 'smooth' });
+            }
+          }}
+          role="button"
+          aria-label="Scroll to skills section"
         >
           ↓
         </motion.div>

@@ -205,12 +205,18 @@
   bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 10;
 }
 
 .scroll-indicator {
   color: var(--text-secondary);
   font-size: 2rem;
   cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.scroll-indicator:hover {
+  color: var(--primary-color);
 }
 
 @media (max-width: 968px) {
@@ -229,6 +235,12 @@
 
   .hero-title {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-scroll {
+    display: none;
   }
 }
 
@@ -261,5 +273,9 @@
   .code-content {
     font-size: 0.75rem;
     padding: 1rem;
+  }
+
+  .hero-scroll {
+    display: none;
   }
 }
