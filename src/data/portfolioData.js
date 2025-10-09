@@ -170,9 +170,9 @@ export const experience = [
     technologies: ["Playwright", "Cypress", "JavaScript", "CI/CD", "Jira"]
   },
   {
-    role: "Associate Software Engineer (Frontend Developer + Automation)",
+    role: "Intern - Associate Software Engineer (Frontend Developer + Automation)",
     company: "Sieva Networks Pvt Ltd",
-    period: "2020 - 2022",
+    period: "2021 - 2022",
     description: "Developed responsive web applications and implemented test automation frameworks",
     responsibilities: [
       "Built responsive user interfaces with React",
