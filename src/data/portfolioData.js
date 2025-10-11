@@ -95,17 +95,17 @@ export const testingAchievements = [
 export const projects = {
   frontend: [
     {
-      title: "React Portfolio",
-      description: "Personal portfolio website showcasing frontend development skills",
-      technologies: ["React", "JavaScript", "CSS3", "AOS Animation"],
+      title: "Shopping Cart",
+      description: "E-commerce shopping cart application with product management and checkout features",
+      technologies: ["React", "JavaScript", "CSS3", "State Management"],
       features: [
-        "Responsive design",
-        "Smooth animations",
-        "Dynamic content",
-        "Modern UI/UX"
+        "Add/Remove products",
+        "Cart management",
+        "Product quantity control",
+        "Responsive design"
       ],
-      github: "https://github.com/debjyotidas/My_React_Portfolio",
-      demo: "#"
+      github: "https://github.com/debjyotidas/Shopping_Cart",
+      demo: "https://shopping-cart-omega-six.vercel.app/"
     },
     {
       title: "Admin Dashboard",
