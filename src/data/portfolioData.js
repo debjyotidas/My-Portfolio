@@ -144,7 +144,7 @@ export const projects = {
         "Modern travel experience"
       ],
       github: "https://github.com/debjyotidas/Travel_app",
-      demo: "https://travel-app-sable-chi.vercel.app/"
+      demo: "https://travel-g3r5lc8bv-debjyoti-das-projects.vercel.app/"
     },
     {
       title: "Dice Game",
