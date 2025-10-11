@@ -67,25 +67,53 @@ const ContactForm = () => {
     setIsSubmitting(true);
 
     try {
-      // Simulate form submission (replace with actual API call)
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      // Web3Forms API endpoint
+      const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
 
-      // For now, we'll just log to console and show success
-      console.log('Form submitted:', formData);
+      // Check if access key is configured
+      if (!accessKey) {
+        throw new Error('Web3Forms access key not configured. Please add it to .env file.');
+      }
 
-      setSubmitStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
+      // Prepare form data for Web3Forms
+      const formPayload = {
+        access_key: accessKey,
+        name: formData.name,
+        email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+      };
+
+      // Send email using Web3Forms
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(formPayload)
       });
 
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setSubmitStatus(null);
-      }, 5000);
+      const result = await response.json();
+
+      if (result.success) {
+        setSubmitStatus('success');
+        setFormData({
+          name: '',
+          email: '',
+          subject: '',
+          message: ''
+        });
+
+        // Reset success message after 5 seconds
+        setTimeout(() => {
+          setSubmitStatus(null);
+        }, 5000);
+      } else {
+        throw new Error(result.message || 'Failed to send message');
+      }
     } catch (error) {
+      console.error('Error sending email:', error);
       setSubmitStatus('error');
       setTimeout(() => {
         setSubmitStatus(null);

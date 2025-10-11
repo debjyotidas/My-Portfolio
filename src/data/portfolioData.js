@@ -105,7 +105,59 @@ export const projects = {
         "Modern UI/UX"
       ],
       github: "https://github.com/debjyotidas/My_React_Portfolio",
-      demo: "#" // Add demo link if available
+      demo: "#"
+    },
+    {
+      title: "Admin Dashboard",
+      description: "Comprehensive admin dashboard with data visualization and management features",
+      technologies: ["React", "Material-UI", "Charts", "Dashboard"],
+      features: [
+        "Interactive data visualization",
+        "User management system",
+        "Responsive dashboard layout",
+        "Real-time data updates"
+      ],
+      github: "https://github.com/debjyotidas/Admin-Dashboard",
+      demo: "https://admin-dashboard-one-indol-85.vercel.app/"
+    },
+    {
+      title: "Weather Forecast",
+      description: "Real-time weather forecast application with location-based weather data",
+      technologies: ["React", "Weather API", "Geolocation", "JavaScript"],
+      features: [
+        "Real-time weather updates",
+        "Location-based forecasts",
+        "5-day weather predictions",
+        "Responsive UI design"
+      ],
+      github: "https://github.com/debjyotidas/Weather-Forecast-App",
+      demo: "https://weather-forecast-app-gwna.vercel.app/"
+    },
+    {
+      title: "Travel App",
+      description: "Interactive travel planning application with destination exploration features",
+      technologies: ["React", "JavaScript", "CSS3", "API Integration"],
+      features: [
+        "Destination browsing",
+        "Interactive UI",
+        "Responsive design",
+        "Modern travel experience"
+      ],
+      github: "https://github.com/debjyotidas/Travel_app",
+      demo: "https://travel-app-sable-chi.vercel.app/"
+    },
+    {
+      title: "Dice Game",
+      description: "Interactive dice game with engaging gameplay and score tracking",
+      technologies: ["React", "JavaScript", "CSS3", "Game Logic"],
+      features: [
+        "Interactive gameplay",
+        "Score tracking system",
+        "Smooth animations",
+        "Responsive controls"
+      ],
+      github: "https://github.com/debjyotidas/Dice-Game",
+      demo: "https://dice-game-rose-eight.vercel.app/"
     },
     {
       title: "Currency Converter",
@@ -117,31 +169,8 @@ export const projects = {
         "Responsive interface",
         "Clean architecture"
       ],
-      github: "#" // Update with actual link
-    },
-    {
-      title: "Password Generator",
-      description: "Secure password generator with customizable options",
-      technologies: ["React", "JavaScript", "CSS"],
-      features: [
-        "Customizable length",
-        "Character options",
-        "Copy to clipboard",
-        "Strength indicator"
-      ],
-      github: "#" // Update with actual link
-    },
-    {
-      title: "Todo with Context API",
-      description: "Task management app using React Context API and local storage",
-      technologies: ["React", "Context API", "Local Storage"],
-      features: [
-        "Add/Edit/Delete tasks",
-        "Persistent storage",
-        "State management",
-        "Clean UI"
-      ],
-      github: "#" // Update with actual link
+      github: "https://github.com/debjyotidas/Currency_convertor",
+      demo: "https://currency-convertor-kappa-one.vercel.app/"
     }
   ],
   testing: [
