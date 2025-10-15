@@ -106,14 +106,7 @@ This project can be deployed to:
 ## 📧 Contact
 
 **Debjyoti Das**
-- Email: [Update in portfolioData.js]
+- Email: dasdevjyoti15@gmail.com
 - GitHub: [@debjyotidas](https://github.com/debjyotidas)
-- LinkedIn: [Update in portfolioData.js]
+- LinkedIn: (https://www.linkedin.com/in/debjyoti-das-890a69184/)
 
-## 📜 License
-
-This project is open source and available for personal use and modification.
-
----
-
-**Built with ❤️ using React & Vite**
