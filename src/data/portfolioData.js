@@ -108,7 +108,7 @@ export const projects = {
         "Responsive design for all devices"
       ],
       github: "https://github.com/debjyotidas/luxe-ecommerce-platform",
-      demo: "https://github.com/debjyotidas/luxe-ecommerce-platform"
+      demo: "https://luxe-ecommerce-platform.vercel.app/"
     },
     {
       title: "Admin Dashboard",
