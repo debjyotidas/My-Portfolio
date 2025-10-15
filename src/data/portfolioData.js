@@ -95,17 +95,20 @@ export const testingAchievements = [
 export const projects = {
   frontend: [
     {
-      title: "Shopping Cart",
-      description: "E-commerce shopping cart application with product management and checkout features",
-      technologies: ["React", "JavaScript", "CSS3", "State Management"],
+      title: "Luxe Shop - Premium E-Commerce",
+      description: "Modern, fully-featured e-commerce platform with 50+ products, advanced filtering, shopping cart, wishlist, and secure checkout",
+      technologies: ["React 19", "Tailwind CSS", "JavaScript", "Framer Motion", "Vite", "Playwright"],
       features: [
-        "Add/Remove products",
-        "Cart management",
-        "Product quantity control",
-        "Responsive design"
+        "50+ products with advanced filtering & search",
+        "Shopping cart with real-time updates",
+        "Wishlist functionality",
+        "Multi-step checkout with promo codes",
+        "User authentication & order history",
+        "Comprehensive Playwright testing framework",
+        "Responsive design for all devices"
       ],
-      github: "https://github.com/debjyotidas/Shopping_Cart",
-      demo: "https://shopping-cart-omega-six.vercel.app/"
+      github: "https://github.com/debjyotidas/luxe-ecommerce-platform",
+      demo: "https://github.com/debjyotidas/luxe-ecommerce-platform"
     },
     {
       title: "Admin Dashboard",
