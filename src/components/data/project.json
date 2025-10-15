@@ -1,0 +1,70 @@
+[
+  
+  {
+    "key": 1,
+    "title": "Admin-Dashboard",
+    "imageSrc": "/assets/projects/AdminDashboard.png",
+    "description": "a highly interactive and responsive Admin Dashboard using React and Material UI, aimed at improving user management, data analytics, and content management systems. This project features real-time data visualization, user management, and performance optimization for seamless scalability and responsiveness across devices.",
+    "demo": "https://github.com/debjyotidas/TextUtils",
+    "source": "https://github.com/debjyotidas/TextUtils"
+  },
+
+    
+  {
+      "key": 2,
+      "title": "Luxe Shop - Premium E-Commerce",
+      "imageSrc": "https://cdn.pixabay.com/photo/2016/11/22/19/15/hand-1850120_1280.jpg",
+      "description": "A modern, fully-featured e-commerce platform built with React 19, Tailwind CSS, JavaScript, Framer Motion, and Vite. Features 50+ products, advanced filtering, shopping cart, wishlist, checkout with promo codes, user authentication, and comprehensive Playwright testing framework. Includes real-time cart management, multiple payment options, and responsive design optimized for all devices.",
+      "demo": "https://github.com/debjyotidas/luxe-ecommerce-platform",
+      "source": "https://github.com/debjyotidas/luxe-ecommerce-platform"
+    },
+    {
+      "key": 3,
+      "title": "To-Do List application",
+      "imageSrc": "https://cdn.pixabay.com/photo/2022/05/22/17/22/to-do-7214069_640.png",
+      "description": "a responsive to-do list application using ReactJS, HTML, and CSS allowing users to efficiently manage tasks with an intuitive and user-friendly interface.",
+      "demo": "https://to-do-list-cyan-ten.vercel.app/",
+      "source": "https://github.com/debjyotidas/ToDoList"
+    },
+    {
+      "key": 4,
+      "title": "Weather Forecast App",
+      "imageSrc": "https://cdn.pixabay.com/photo/2017/08/20/09/14/storm-2660931_960_720.jpg",
+      "description": "Dynamic Weather Forecast App created using React JS, Tailwind CSS, Material UI which Forecasts the temperature, humidity, air pressure, climate for the city entered by User ",
+      "demo": "https://weather-forecast-app-gwna.vercel.app/",
+      "source": "https://github.com/debjyotidas/Weather-Forecast-App"
+    },
+
+    {
+      "key": 5,
+      "title": "Map Your Location",
+      "imageSrc": "https://cdn.pixabay.com/photo/2016/03/22/04/23/map-1272165_1280.png",
+      "description": "Dynamic Location Mapping App using HTML, CSS, JavaScript. Allows users to manage geographical data. Implemented markers and used CRUD operations on location entries.",
+      "demo": "https://map-your-location.vercel.app/",
+      "source": "https://github.com/debjyotidas/Map-Your-Location"
+    },
+    {
+      "key": 6,
+      "title": "Web-based Dice game",
+      "imageSrc": "https://cdn.pixabay.com/photo/2012/04/05/01/24/dice-25637_1280.png",
+      "description": " interactive web-based dice game using HTML, CSS, JavaScript offering a dynamic and engaging gaming experience. Implemented user-friendly interface allowing seamless interaction.",
+      "demo": "https://dice-game-rose-eight.vercel.app/",
+      "source": "https://github.com/debjyotidas/Dice-Game"
+    },
+    {
+      "key": 7,
+      "title": "Stock Market Prediction-Analyisis",
+      "imageSrc": "https://cdn.pixabay.com/photo/2021/04/09/13/27/chart-6164414_640.png",
+      "description": "Made with help of ANN and Keras predicting the future of a stock by analyzing past history.It also has a matplotlib to display graphical returns",
+      "demo": "https://github.com/debjyotidas/Stock_Market_Prediction-Analyisis/tree/main",
+      "source": "https://github.com/debjyotidas/Stock_Market_Prediction-Analyisis/tree/main"
+    },
+    {
+      "key": 8,
+      "title": "Speech recognition App",
+      "imageSrc": "https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A Speech recognition python app made with TensorFlow and Keras analyzing different voices. It also has a matplotlib to display voice frequency in graphical format.",
+      "demo": "https://github.com/debjyotidas/SpeechRecognition_using_CNN",
+      "source": "https://github.com/debjyotidas/SpeechRecognition_using_CNN"
+    }
+  ]

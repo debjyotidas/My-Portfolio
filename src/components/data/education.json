@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "organisation": "Amrita Vishwa Vidyapeetham",
+      "startDate": "Aug, 2020",
+      "endDate": "Aug,2022",
+      "grade": "8.35 CGPA",
+      "experiences": 
+        "MTech, Computer Science and Engineering",
+      "location": "Bengaluru, India",
+      "imageSrc": "univ/amrita.png"
+    },
+    {
+        "id": 2,
+        "organisation": "Gargi Memorial Institute of Technology",
+        "startDate": "Apr, 2014",
+        "endDate": "Apr,2018",
+        "grade": "7.15 CGPA",
+        "experiences":"BTech, Computer Science and Engineering",
+        "location": "Kolkata, India",
+        "imageSrc": "univ/gmit.png"
+      }
+  ]
